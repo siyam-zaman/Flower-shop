@@ -29,6 +29,7 @@
   line-height: 1.875rem;
   margin-bottom: 32px;
 }
+/* !button */
 .btn {
   background: #e55473;
   border: none;
@@ -38,6 +39,7 @@
   font-size: 1.25rem;
   font-weight: 700;
 }
+/* !Our Featured Flowers */
 .Featured-Flowers {
   margin-top: 178px;
 }
@@ -60,7 +62,7 @@
   margin: 0 240px;
   display: flex;
   justify-content: space-around;
-  gap:24px;
+  gap: 24px;
 }
 .img01 {
   width: 29rem;
@@ -71,7 +73,7 @@
   align-items: end;
   justify-content: center;
 }
-.img02{
+.img02 {
   width: 29rem;
   height: 37.8125rem;
   background-color: rgba(5, 151, 160, 0.15);
@@ -80,7 +82,7 @@
   align-items: center;
   justify-content: center;
 }
-.img03{
+.img03 {
   width: 29rem;
   height: 37.8125rem;
   background-color: rgba(71, 125, 17, 0.15);
@@ -100,4 +102,22 @@
   font-weight: 700;
   line-height: 2.1875rem;
   text-decoration-line: underline;
+}
+.optional-Container {
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 0.5rem;
+  margin: 128px 240px;
+  padding: 56px 175px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  text-align: center;
+  gap:100px;
+}
+.card-title {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
