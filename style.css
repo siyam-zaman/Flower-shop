@@ -40,6 +40,9 @@
   font-weight: 700;
   cursor: pointer;
 }
+.btn2 {
+  margin-left: 210px;
+}
 /* !Our Featured Flowers */
 .Featured-Flowers {
   margin-top: 178px;
@@ -153,9 +156,6 @@
   margin-top: 24px;
   margin-bottom: 32px;
 }
-.btn2 {
-  margin-left: 210px;
-}
 /* !Instagram */
 .Instagram-title {
   color: #272727;
@@ -170,36 +170,68 @@
   text-align: center;
   font-size: 1.125rem;
   font-weight: 400;
-  margin-bottom:48px;
+  margin-bottom: 48px;
 }
-.InstagramImage-container{
-    margin:0 240px;
-    display: flex;
-    justify-content: space-around;
-    gap:24px;
+.InstagramImage-container {
+  margin: 0 240px;
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
 }
-.extra-part{
-    margin:0px 240px;
-    display: flex;
-    justify-content: space-around;
+.extra-part {
+  margin: 0px 240px;
+  display: flex;
+  justify-content: space-around;
 }
-.extra-part img{
-    width:300px;
-    margin-left:100px;
+.extra-part img {
+  width: 300px;
+  margin-left: 100px;
 }
 .AboutUS-title {
-    color: #e55473;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin-top: 128px;
-    margin-bottom: 24px;
+  color: #;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 128px;
+  margin-bottom: 24px;
 }
 .AboutUS-description {
   color: rgba(39, 39, 39, 0.6);
-  text-align:justify;
+  text-align: justify;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5rem;
-  margin-bottom:48px;
+  margin-bottom: 48px;
+}
+.Latest-Deals {
+  background-image: url(./Resource/Rectangle\ 9.png);
+  width: 90rem;
+  height: 28.0625rem;
+  margin: 128px 240px;
+}
+.latestDeals-text {
+  padding: 122px 287px;
+  text-align: center;
+}
+.latestDeals-Title {
+  color: #272727;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.latestDeals-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.Email-input {
+  width: 40rem;
+  height: 4rem;
+  background: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 3px 15px;
+  margin-right:10px;
 }
