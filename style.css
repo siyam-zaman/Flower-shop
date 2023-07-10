@@ -40,6 +40,9 @@
   font-weight: 700;
   cursor: pointer;
 }
+.btn:hover{
+    background-color: #b42a48;
+}
 .btn2 {
   margin-left: 210px;
 }
@@ -178,6 +181,7 @@
   justify-content: space-around;
   gap: 24px;
 }
+/* !Extra part  */
 .extra-part {
   margin: 0px 240px;
   display: flex;
@@ -203,6 +207,7 @@
   line-height: 1.5rem;
   margin-bottom: 48px;
 }
+/* !Latest Deals */
 .Latest-Deals {
   background-image: url(./Resource/Rectangle\ 9.png);
   width: 90rem;
@@ -235,6 +240,7 @@
   padding: 3px 15px;
   margin-right: 10px;
 }
+/* !footer */
 footer {
   padding: 128px 648px;
   background-color: #212121;
